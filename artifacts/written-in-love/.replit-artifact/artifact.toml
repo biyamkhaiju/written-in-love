@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Written in Love"
+description = "A full interactive wedding invitation for King Vincente and Precious Eshun, with event details, ceremony location, RSVP, music control, and floral artwork."
+version = "1.0.0"
+id = "artifacts/written-in-love"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19082
+
+[services.development]
+run = "pnpm --filter @workspace/written-in-love run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/written-in-love", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/written-in-love/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19082"
+BASE_PATH = "/"
