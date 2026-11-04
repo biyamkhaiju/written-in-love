@@ -45,7 +45,7 @@ function Section({ children, className = "" }: { children: React.ReactNode; clas
   const ref = useRef<HTMLElement>(null);
   useEffect(() => {
     const el = ref.current!;
-    const io = new IntersectionObserver(([e]) => e.isIntersecting && el.classList.add("in"), { threshold: 0.2 });
+    const io = new IntersectionObserver(([e]) => { if (e?.isIntersecting) el.classList.add("in"); }, { threshold: 0.2 });
     io.observe(el);
     return () => io.disconnect();
   }, []);
