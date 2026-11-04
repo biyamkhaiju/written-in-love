@@ -10,9 +10,9 @@ import church from "@/assets/church.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "King Vincente & Precious Eshun — Wedding Invitation" },
-      { name: "description", content: "Join us on Saturday, April 06 at 11:30 AM to celebrate the union of King Vincente & Precious Eshun." },
-      { property: "og:title", content: "King Vincente & Precious Eshun — Wedding" },
+      { title: "King Sushil & Princess Ayushi — Wedding Invitation" },
+      { name: "description", content: "Join us on Saturday, April 06 at 11:30 AM to celebrate the union of King Sushil & Princess Ayushi." },
+      { property: "og:title", content: "King Sushil & Princess Ayushi — Wedding" },
       { property: "og:description", content: "Two hearts, one journey. You're invited to our wedding celebration." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -136,13 +136,13 @@ function Index() {
           <p className="fade-up text-[0.7rem] uppercase tracking-[0.3em] text-primary md:text-sm">The wedding celebration of</p>
           <Heart className="fade-up mx-auto mt-2 h-3 w-3 fill-primary text-primary" />
           <div className="flex flex-col items-center">
-            <WriteOn text="King Vincente" delay={0.5} />
+            <WriteOn text="King Sushil" delay={0.5} />
             <div className="fade-up flex items-center gap-4" style={{ animationDelay: "2.6s" }}>
               <span className="h-px w-16 bg-primary/40 md:w-28" />
               <span className="font-script text-5xl text-primary md:text-6xl">&amp;</span>
               <span className="h-px w-16 bg-primary/40 md:w-28" />
             </div>
-            <WriteOn text="Precious Eshun" delay={3} />
+            <WriteOn text="Princess Ayushi" delay={3} />
           </div>
 
           <div className="fade-up mt-6 grid grid-cols-3 items-start text-left text-sm md:text-base" style={{ animationDelay: "5.4s" }}>
@@ -153,7 +153,7 @@ function Index() {
               <Clock className="h-5 w-5 shrink-0 text-primary" /><span>11:30 AM</span>
             </div>
             <div className="flex items-start justify-center gap-2 px-2">
-              <MapPin className="h-5 w-5 shrink-0 text-primary" /><span className="text-xs md:text-sm">Family Praise Assemblies of God, Mariville Homes, Spintex</span>
+              <MapPin className="h-5 w-5 shrink-0 text-primary" /><span className="text-xs md:text-sm">Smart Banquet, Basanta Chowk, Bharatpur-12, Chitwan, Nepal</span>
             </div>
           </div>
           <div className="fade-up" style={{ animationDelay: "5.8s" }}><Flourish /></div>
@@ -172,7 +172,7 @@ function Index() {
           </div>
           <div className="text-center">
             <Title>Our Celebration</Title>
-            <p className="mx-auto mt-4 max-w-md text-lg leading-relaxed">Two hearts, one journey, a lifetime together. Join us as we celebrate the love and union of King Vincente &amp; Precious Eshun.</p>
+            <p className="mx-auto mt-4 max-w-md text-lg leading-relaxed">Two hearts, one journey, a lifetime together. Join us as we celebrate the love and union of King Sushil &amp; Princess Ayushi.</p>
             <Flourish />
           </div>
         </div>
@@ -186,8 +186,8 @@ function Index() {
         <div className="mx-auto grid max-w-4xl items-center gap-8 md:grid-cols-[1fr_auto]">
           <div className="text-center">
             <Title>Location</Title>
-            <p className="mt-4 flex items-start justify-center gap-2 text-lg"><MapPin className="mt-1 h-5 w-5 shrink-0 text-primary" /><span>Family Praise Assemblies of God,<br />Mariville Homes, Spintex</span></p>
-            <a href="https://www.google.com/maps/search/?api=1&query=Family+Praise+Assemblies+of+God+Mariville+Homes+Spintex" target="_blank" rel="noreferrer"
+            <p className="mt-4 flex items-start justify-center gap-2 text-lg"><MapPin className="mt-1 h-5 w-5 shrink-0 text-primary" /><span>Smart Banquet,<br />Basanta Chowk, Bharatpur-12, Chitwan, Nepal</span></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Smart+Banquet+Basanta+Chowk+Bharatpur-12+Chitwan+Nepal" target="_blank" rel="noreferrer"
               className="mt-5 inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-2 text-sm shadow-md transition hover:-translate-y-0.5 hover:shadow-lg">
               <MapPin className="h-4 w-4 text-primary" />View on Google Maps
             </a>

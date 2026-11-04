@@ -98,14 +98,14 @@ function Home() {
           <p className="eyebrow fade-up" style={{ animationDelay: '.15s' }}>The wedding celebration of</p>
           <Heart className="hero-heart fade-up" size={14} fill="currentColor" style={{ animationDelay: '.35s' }} aria-hidden="true" />
           <h1 className="hero-title" data-testid="text-couple-names">
-            <span className="write-on" style={{ animationDelay: '.55s' }}>King Vincente</span>
+            <span className="write-on" style={{ animationDelay: '.55s' }}>King Sushil</span>
             <span className="ampersand fade-up" style={{ animationDelay: '2.1s' }}>&amp;</span>
-            <span className="write-on" style={{ animationDelay: '2.4s' }}>Precious Eshun</span>
+            <span className="write-on" style={{ animationDelay: '2.4s' }}>Princess Ayushi</span>
           </h1>
           <div className="event-meta fade-up" style={{ animationDelay: '4.3s' }} data-testid="content-wedding-details">
             <div className="meta-item"><CalendarDays size={19} /><span>April 06<br />Saturday</span></div>
             <div className="meta-item"><Clock3 size={19} /><span>11:30 AM</span></div>
-            <div className="meta-item"><MapPin size={19} /><span>Family Praise Assemblies of God, Mariville Homes, Spintex</span></div>
+            <div className="meta-item"><MapPin size={19} /><span>Smart Banquet, Basanta Chowk, Bharatpur-12, Chitwan, Nepal</span></div>
           </div>
           <div className="flourish fade-up" style={{ animationDelay: '4.6s' }} aria-hidden="true">~ ❦ ~</div>
         </div>
@@ -121,7 +121,7 @@ function Home() {
           </div>
           <div className="story-copy">
             <SectionTitle>Our Celebration</SectionTitle>
-            <p data-testid="text-celebration-copy">Two hearts, one journey, a lifetime together. Join us as we celebrate the love and union of King Vincente &amp; Precious Eshun.</p>
+            <p data-testid="text-celebration-copy">Two hearts, one journey, a lifetime together. Join us as we celebrate the love and union of King Sushil &amp; Princess Ayushi.</p>
             <div className="flourish" aria-hidden="true">~ ❦ ~</div>
           </div>
         </div>
@@ -135,11 +135,11 @@ function Home() {
             <SectionTitle>Location</SectionTitle>
             <p className="location-address" data-testid="text-venue-address">
               <MapPin size={20} aria-hidden="true" />
-              <span>Family Praise Assemblies of God,<br />Mariville Homes, Spintex</span>
+              <span>Smart Banquet,<br />Basanta Chowk, Bharatpur-12, Chitwan, Nepal</span>
             </p>
             <a
               className="map-link"
-              href="https://www.google.com/maps/search/?api=1&query=Family+Praise+Assemblies+of+God+Mariville+Homes+Spintex"
+              href="https://www.google.com/maps/search/?api=1&query=Smart+Banquet+Basanta+Chowk+Bharatpur-12+Chitwan+Nepal"
               target="_blank"
               rel="noreferrer"
               data-testid="link-google-maps"
