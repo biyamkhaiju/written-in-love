@@ -100,7 +100,7 @@ function Index() {
   };
 
   return (
-    <main className="relative overflow-hidden text-foreground">
+    <main className="wedding-page relative overflow-hidden text-foreground">
       {petals.map((p, i) => (
         <span key={i} className="petal" style={{ left: `${p.l}%`, animationDuration: `${p.s}s`, animationDelay: `${p.d}s` }} />
       ))}
