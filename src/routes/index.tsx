@@ -99,9 +99,9 @@ function Index() {
       </nav>
 
       {/* Hero */}
-      <header id="home" className="relative flex min-h-[100svh] flex-col items-center justify-center px-4 pb-16 pt-20 text-center">
-        <img src={floral} alt="" width={1024} height={1024} className="sway pointer-events-none absolute -left-16 -top-16 w-[200px] md:w-[460px]" />
-        <img src={floral} alt="" width={1024} height={1024} className="sway pointer-events-none absolute -bottom-16 -right-16 w-[180px] rotate-180 md:w-[400px]" />
+      <header id="home" className="relative flex min-h-[100svh] flex-col items-center justify-center px-4 pb-28 pt-28 text-center">
+        <img src={floral} alt="" width={1024} height={1024} className="sway pointer-events-none absolute -left-10 -top-8 w-[230px] md:-left-16 md:-top-16 md:w-[460px]" />
+        <img src={floral} alt="" width={1024} height={1024} className="sway pointer-events-none absolute -bottom-10 -right-10 w-[150px] rotate-180 md:w-[400px]" />
         <p className="fade-up relative z-10 mb-2 tracking-[0.3em] text-xs md:text-sm uppercase text-muted-foreground">The wedding celebration of</p>
         <div className="relative z-10 w-full">
           <WriteOn text="King Vincente" delay={0.6} />
