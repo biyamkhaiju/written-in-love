@@ -234,9 +234,9 @@ function Index() {
       <Wave flip />
 
       {/* THANK YOU */}
-      <Reveal className="px-6 pb-28 pt-12 text-center">
-        <img src={floral} alt="" width={1024} height={1024} loading="lazy" className="sway pointer-events-none absolute -bottom-12 -left-12 w-44 -rotate-90 md:w-64" />
-        <img src={floral} alt="" width={1024} height={1024} loading="lazy" className="sway pointer-events-none absolute -bottom-12 -right-12 w-44 rotate-180 md:w-64" />
+      <Reveal className="overflow-hidden px-6 pb-40 pt-12 text-center md:pb-48">
+        <img src={floral} alt="" width={1024} height={1024} loading="lazy" className="pointer-events-none absolute bottom-0 left-0 w-36 -scale-y-100 md:w-56" />
+        <img src={floral} alt="" width={1024} height={1024} loading="lazy" className="pointer-events-none absolute bottom-0 right-0 w-36 rotate-180 md:w-56" />
         <h2 className="font-script text-6xl text-primary md:text-7xl">Thank You!</h2>
         <div className="my-2 flex items-center justify-center gap-3">
           <span className="h-px w-20 bg-primary/40" /><Heart className="h-4 w-4 fill-primary text-primary" /><span className="h-px w-20 bg-primary/40" />
