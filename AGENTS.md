@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Vercel deploys use bun (bun.lock only, vercel.json sets install/build); keep no pnpm/Replit workspace files at the root, because they make Vercel install unrelated packages and fail.
